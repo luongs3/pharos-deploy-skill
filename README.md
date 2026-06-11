@@ -4,7 +4,7 @@
 
 Every Agent in the Pharos agent economy will eventually need code on-chain — its escrow, its registry, its strategy vault. Today that step is where autonomy ends: the human takes over, opens Remix or Hardhat, and deploys by hand.
 
-**pharos-deploy** closes that gap. It is a reusable Skill that lets any AI agent **compile, cost-estimate, deploy, attest, and trust-check smart contracts on Pharos** — inside guardrails a human owns and the agent cannot bypass.
+**pharos-deploy** closes that gap. It is a reusable Skill that lets any AI agent **compile, cost-estimate, deploy, attest, and trust-check smart contracts on Pharos** — inside human-owned policy guardrails that are enforced in the scripts and bound into every transaction.
 
 ```
 agent: "Deploy my escrow contract to Pharos testnet and attest it."
