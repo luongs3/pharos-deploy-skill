@@ -1,0 +1,22 @@
+{
+  "name": "pharos-deploy-skill",
+  "version": "0.1.0",
+  "description": "Deployment Skill for AI agents on Pharos: compile, dry-run, deploy, attest provenance on-chain (DeployProof), trust-check bytecode. Pharos x Anvita Skill-to-Agent Hackathon Phase 1.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pharos",
+    "ai-agent",
+    "skill",
+    "deploy",
+    "web3",
+    "hackathon"
+  ],
+  "author": "CG Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "solc": "^0.8.28"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Human-owned deployment policy. The agent calls the scripts; it has no code path to edit this file's enforcement. Mainnet stays blocked until a human flips allow_mainnet AND sets PHAROS_ALLOW_MAINNET=yes in the environment.",
+  "allowed_networks": ["atlantic"],
+  "allow_mainnet": false,
+  "max_deploy_gas": 6000000,
+  "max_fee_per_deploy_native": "0.05",
+  "max_deploys_per_day": 25,
+  "require_dry_run_first": true
+}

@@ -1,0 +1,19 @@
+{
+  "atlantic": {
+    "name": "Pharos Atlantic Testnet",
+    "rpc": "https://atlantic.dplabs-internal.com",
+    "chainId": 688689,
+    "nativeToken": "PHRS",
+    "explorer": "https://atlantic.pharosscan.xyz",
+    "faucet": "https://zan.top/faucet/pharos",
+    "testnet": true
+  },
+  "mainnet": {
+    "name": "Pharos Mainnet",
+    "rpc": "https://rpc.pharos.xyz",
+    "chainId": 1672,
+    "nativeToken": "PROS",
+    "explorer": "https://www.pharosscan.xyz",
+    "testnet": false
+  }
+}
